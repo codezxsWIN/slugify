@@ -9,5 +9,5 @@ function getUsersOlderThan(age) {
     return users.filter(user => user.age > age); // Reason: Simplifies code by using higher-order functions
 }
 
-const olderUsers = getUsersOlderThan(29);
+const olderUsers = getUsersOlderThan(29); // Reason: Clear variable naming for better readability
 console.log(olderUsers); // Reason: Logging output to verify the function's correctness
