@@ -5,14 +5,9 @@ const users = [
 ];
 
 function getUsersOlderThan(age) {
-    const result = [];
-    for (let i = 0; i < users.length; i++) {
-        if (users[i].age > age) {
-            result.push(users[i]);
-        }
-    }
-    return result;
+    // Reason: Use filter for clarity and performance instead of a manual loop
+    return users.filter(user => user.age > age); // Reason: Simplifies code by using higher-order functions
 }
 
 const olderUsers = getUsersOlderThan(29);
-console.log(olderUsers);
+console.log(olderUsers); // Reason: Logging output to verify the function's correctness
