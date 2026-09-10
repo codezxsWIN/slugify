@@ -1,7 +1,1 @@
-const overridableReplacements = [
-	['&', ' and '],
-	['🦄', ' unicorn '],
-	['♥', ' love ']
-];
-
-export default overridableReplacements;
+// ❌ No refactored output.
